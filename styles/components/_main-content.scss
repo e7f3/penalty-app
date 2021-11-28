@@ -1,0 +1,13 @@
+// MainContent стили
+
+.main__content {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 24px;
+  & > .title {
+    margin: 0 15px;
+  }
+  & > .form {
+    margin: 0 15px;
+  }
+}

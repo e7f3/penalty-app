@@ -1,0 +1,15 @@
+// Penalty стили
+
+.penalty {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 25px;
+  &--not-found {
+    padding-top: 15px;
+  }
+  &--loading {
+    padding-top: 25px;
+  }
+}

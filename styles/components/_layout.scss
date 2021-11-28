@@ -1,0 +1,13 @@
+// Layout стили
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  max-width: 732px;
+  margin: 0 auto 6px;
+  padding: 0 22px;
+}
+
+.main {
+  max-width: 732px;
+}

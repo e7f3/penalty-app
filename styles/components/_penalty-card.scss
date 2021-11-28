@@ -1,0 +1,28 @@
+// PenaltyCard стили
+
+.penalty-card {
+  padding: 22px 15px 20px;
+  box-shadow: $basic_shadow;
+  width: 100%;
+  font: $mini_font;
+  table {
+    border-spacing: 19px 4px;
+    border-collapse: collapse;
+  }
+  td {
+    padding: 2px 0 2px;
+    vertical-align: top;
+  }
+  td:first-child {
+    white-space: nowrap;
+  }
+
+  td:last-child {
+    padding-left: 19px;
+  }
+  .title {
+    text-align: left;
+    font: $main_font;
+    margin-bottom: 10px;
+  }
+}

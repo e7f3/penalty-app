@@ -1,0 +1,19 @@
+// Logo стили
+
+.header__logo {
+  align-self: flex-start;
+  display: flex;
+  column-gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 34px;
+  width: 34px;
+  border-radius: 4px;
+  background-color: $main_color;
+}

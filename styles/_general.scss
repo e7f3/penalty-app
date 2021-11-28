@@ -1,0 +1,46 @@
+// Общие стили
+
+.page__body {
+  background-color: $background_color;
+  font: $main_font;
+  color: $font_color;
+}
+
+.title {
+  font: inherit;
+}
+
+.button {
+  height: 35px;
+  padding: 7px 32px;
+  border: none;
+  color: $font_color--light;
+  background-color: $main_color;
+  cursor: pointer;
+}
+
+.form {
+  display: flex;
+  column-gap: 11px;
+}
+
+.suggestion {
+  display: inline-flex;
+  padding: 3px 7px;
+  margin-top: 5px;
+  margin-right: auto;
+  box-shadow: $basic_shadow;
+  cursor: pointer;
+}
+
+.warning {
+  position: relative;
+  &::after {
+    display: block;
+    padding-top: 5px;
+    position: absolute;
+    content: "Количество введённых символов не совпадает с необходимым!";
+    font: $mini_font;
+    color: $warning_color;
+  }
+}
